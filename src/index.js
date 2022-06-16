@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App';
 import SigninPage from './pages/SigninPage';
+import Dashboard from './pages/Dashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="signin" element={<SigninPage />} />
+      <Route path="dashboard" element={<Dashboard />} />
     </Routes>
   </BrowserRouter>
 );
