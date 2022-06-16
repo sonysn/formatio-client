@@ -1,7 +1,6 @@
 import './App.css';
 import React from 'react';
 import Formatio from './components/FormatioHead/Formatio';
-import LandingPagebtn from './components/LandingPageButtons/LandingPagebtn';
 import LandingPageBody from './components/LandingPageBody/LandingPageBody';
 import NavBar from './components/NavBar';
 
