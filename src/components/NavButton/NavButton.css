@@ -1,0 +1,10 @@
+.but {
+    color: white;
+    font-family: sans-serif;
+    padding: 15px;
+    display: inline-block;
+}
+
+.but:hover{
+    color: rebeccapurple;
+}

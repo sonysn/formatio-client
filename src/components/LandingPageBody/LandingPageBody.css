@@ -1,0 +1,11 @@
+.bodycontent{
+    color: white;
+    margin: 0;
+}
+
+.landingpagebodydiv{
+    /* text-align: center; */
+    float: right;
+    margin-right: 15%;
+    margin-top: 10%;
+}
