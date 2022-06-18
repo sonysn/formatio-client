@@ -6,10 +6,12 @@ const divStyle = {
     display: 'inline-block',
     float: 'right',
     width: '80%',
-    marginTop: '-105px',
+    marginTop: '-102px',
     margin: '15px',
     borderRadius: "50px 20px 50px 10px",
-    boxShadow: "0 13px 40px rgb(0 0 0 / 0.2)"
+    boxShadow: "0 13px 40px rgb(0 0 0 / 0.2)",
+    // testing this
+    position: 'relative'
 }
 
     return(

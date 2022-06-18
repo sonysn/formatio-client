@@ -7,9 +7,9 @@ function LandingPagebtn(props){
     const navigate = useNavigate();
     return(
         <div>
-            <button onClick={() => navigate('signin')}>{props.name}</button>
+            <button className='btnland' onClick={() => navigate('signin')}>{props.name}</button>
         </div>
-    )
+    );
 }
 
 export default LandingPagebtn;

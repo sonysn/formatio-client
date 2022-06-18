@@ -1,4 +1,6 @@
 import React from "react";
+import TutorDetails from "../TutorDetails/TutorDetails";
+import './DashboardDisplay.css';
 
 function DashboardDisplay(){
     const divStyle = {
@@ -7,11 +9,12 @@ function DashboardDisplay(){
         width: '80%', 
         height: '550px',
         borderRadius: "50px 20px 50px 10px",
-        margin: '15px',
+        margin: '15px'
     }
     return(
-        <div style={divStyle}>
-        
+        <div className="dashdiv">
+            <TutorDetails name='Tutor 1' />
+            <TutorDetails name='Tutor 2' />
         </div>
     );
 }
