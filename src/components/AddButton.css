@@ -1,0 +1,12 @@
+.addbtn{
+    background-color: rebeccapurple;
+    box-shadow: 0 23px 10px rgb(0 0 0 / 0.2);
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 190px;
+    border: none;
+}

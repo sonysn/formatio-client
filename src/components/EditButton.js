@@ -1,12 +1,12 @@
 import React from "react";
-import './EditButton.css';
+import "./EditButton.css";
 
-function EditButton(){
-    return(
-        <div>
-            <button className="editbtn">Edit</button>
-        </div>
-    );
+function EditButton() {
+  return (
+    <div>
+      <button className="editbtn">Edit</button>
+    </div>
+  );
 }
 
 export default EditButton;

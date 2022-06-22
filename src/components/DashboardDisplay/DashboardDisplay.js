@@ -1,22 +1,34 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import TutorDetails from "../TutorDetails/TutorDetails";
-import './DashboardDisplay.css';
+import "./DashboardDisplay.css";
 
-function DashboardDisplay(){
-    const divStyle = {
-        backgroundColor: 'white', 
-        float: 'right', 
-        width: '80%', 
-        height: '550px',
-        borderRadius: "50px 20px 50px 10px",
-        margin: '15px'
-    }
-    return(
-        <div className="dashdiv">
-            <TutorDetails name='Tutor 1' />
-            <TutorDetails name='Tutor 2' />
-        </div>
-    );
+function DashboardDisplay() {
+  const [data, setData] = useState({});
+
+  useEffect(() => {
+    fetch("/tutorget")
+      .then((res) => res.json())
+      .then(
+        (data) => setData(data.tutors)
+        // console.log(data.tutors[0].tutorName)
+      );
+  }, []);
+
+  //changes dictionary to list
+  var dataMap = Array.from(data);
+  console.log(dataMap);
+  return (
+    <div className="dashdiv">
+      {dataMap.map((dataMap) => {
+        return (
+          <TutorDetails
+            name={dataMap.tutorName}
+            subject={dataMap.tutorSubject}
+          />
+        );
+      })}
+    </div>
+  );
 }
 
 export default DashboardDisplay;

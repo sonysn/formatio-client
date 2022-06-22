@@ -1,13 +1,13 @@
-.btnland{
-    background-color: rebeccapurple;
-    border: 0px;
-    border-radius: 10px 10px 10px 10px;
-    margin: 5px;
-    padding: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: 17px;
-    color: white;
-    text-align: center;
-    width: 290px;
+.btnland {
+  background-color: rebeccapurple;
+  border: 0px;
+  border-radius: 10px 10px 10px 10px;
+  margin: 5px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  width: 290px;
 }

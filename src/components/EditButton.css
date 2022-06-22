@@ -1,18 +1,18 @@
-.editbtn{
-    background-color: rebeccapurple;
-    /* box-shadow: 0 23px 10px rgb(0 0 0 / 0.2); */
-    padding: 15px;
-    border-radius: 10px;
-    color: white;
-    font-size: 17px;
-    float: right;
-    margin-top: -55px;
-    margin-right: 30px;
+.editbtn {
+  background-color: rebeccapurple;
+  /* box-shadow: 0 23px 10px rgb(0 0 0 / 0.2); */
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+  float: right;
+  margin-top: -55px;
+  margin-right: 30px;
 }
 
-@media screen and (max-width:600px){
-    .editbtn{
-        width: max-content;
-        height: max-content;
-    }
+@media screen and (max-width: 600px) {
+  .editbtn {
+    width: max-content;
+    height: max-content;
+  }
 }
